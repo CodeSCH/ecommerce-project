@@ -1,0 +1,25 @@
+{
+  "platforms": [
+    {
+      "id":1,
+      "plattafom":"Netflix",
+      "price": 11.50,
+      "quantity": 1
+    },{
+      "id":2,
+      "plattafom":"Amazon Prime",
+      "price": 8,
+      "quantity": 1
+    },{
+      "id":3,
+      "plattafom":"Hbo Max",
+      "price": 8,
+      "quantity": 1
+    },{
+      "id":4,
+      "plattafom":"Disney+",
+      "price": 8,
+      "quantity": 1
+    }
+  ]
+}
