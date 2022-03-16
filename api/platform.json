@@ -2,22 +2,26 @@
   "platforms": [
     {
       "id":1,
-      "plattafom":"Netflix",
+      "image":"../assets/platforms/netflix.png",
+      "platform":"Netflix",
       "price": 11.50,
       "quantity": 1
     },{
       "id":2,
-      "plattafom":"Amazon Prime",
+      "image":"../assets/platforms/amazon_prime.png",
+      "platform":"Amazon Prime",
       "price": 8,
       "quantity": 1
     },{
       "id":3,
-      "plattafom":"Hbo Max",
+      "image":"../assets/platforms/hbo_max.png",
+      "platform":"Hbo Max",
       "price": 8,
       "quantity": 1
     },{
       "id":4,
-      "plattafom":"Disney+",
+      "image":"../assets/platforms/disney_plus.png",
+      "platform":"Disney+",
       "price": 8,
       "quantity": 1
     }

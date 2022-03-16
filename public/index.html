@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Premimun Store</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__bar container">
+            <div class="header__logo">
+                <img src="../assets/small_logo.png" alt="small_logo" />
+                <p class="header__name">ECommerce Premiun Accounts</p>
+            </div>
+            <nav class="header__nav">
+                <a href="../public/index.html" class="header__nav-link header__nav-link-active">Home</a>
+                <a href="https://api.whatsapp.com/send?phone=51994149212" class="header__nav-link nav_contact"
+                    target="_blank">Contact</a>
+            </nav>
+        </div>
+        <div class="header__description">
+            <p class="header__phrase">Como cine en casa</p>
+            <a href="#" class="header__dev-by">DEVELOPED BY @KOUDE</a>
+        </div>
+    </header>
+    <main class="main">
+        <p class="main__head">Avaliable platafforms</p>
+        <div class="main__grid container"></div>
+        <div class="main__description container d-none" id="description">
+            <p class="main__description-name">NETFLIX</p>
+            <div class="main__description-grid">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">Slide 1</div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <p class="main__description-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+                    quos! Est, eaque atque numquam, consequatur quia perferendis,
+                    molestiae neque culpa itaque reprehenderit facilis modi nobis
+                    laboriosam ducimus quas deserunt pariatur.
+                </p>
+            </div>
+            <div class="main__description-contact">
+                <button class="main__description-whatsapp">Contactar</button>
+                <button class="main__description-facebook">Contactar</button>
+                <button class="main__description-telegram">Contactar</button>
+                <a class="d-none">Realizar pago mediante web</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="text-copyright">© All rights reserved</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
