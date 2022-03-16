@@ -35,7 +35,6 @@ function createHTML(platforms) {
         gridContainer.appendChild(divCard);
 
         //Function description platform
-
         img.onclick = function () {
             descriptionHTML(platform);
         }
